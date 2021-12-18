@@ -6,7 +6,6 @@ using Libffi_jll
 using Gettext_jll
 using PCRE_jll
 using Zlib_jll
-using Libmount_jll
 JLLWrappers.@generate_wrapper_header("Glib")
 JLLWrappers.@declare_library_product(libgio, "@rpath/libgio-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libglib, "@rpath/libglib-2.0.0.dylib")
@@ -14,7 +13,7 @@ JLLWrappers.@declare_library_product(libgmodule, "@rpath/libgmodule-2.0.0.dylib"
 JLLWrappers.@declare_library_product(libgobject, "@rpath/libgobject-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libgthread, "@rpath/libgthread-2.0.0.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(Libiconv_jll, Libffi_jll, Gettext_jll, PCRE_jll, Zlib_jll, Libmount_jll)
+    JLLWrappers.@generate_init_header(Libiconv_jll, Libffi_jll, Gettext_jll, PCRE_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libgio,
         "lib/libgio-2.0.0.dylib",
