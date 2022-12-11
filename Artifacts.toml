@@ -1,143 +1,143 @@
 [[Glib]]
 arch = "aarch64"
-git-tree-sha1 = "0f5f1e3ab08dbb0108720005783d5e8fb18b875e"
+git-tree-sha1 = "c08186c25e5525a58ec149de9bdd30703c0464c2"
 os = "macos"
 
     [[Glib.download]]
-    sha256 = "bc5761f97697a57a162930bbd0a85faa398d2e6fe770eeef723683a07bca5740"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "b8e881dfadef7887ac03dd7df73cb298cf68eb5f2909505da867dfdc543b72e7"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.aarch64-apple-darwin.tar.gz"
 [[Glib]]
 arch = "aarch64"
-git-tree-sha1 = "4a1972309b8c9172315638b163e5a9f4c56595fb"
+git-tree-sha1 = "038e2b00ae3ada6154ecbf4561424ae05388b96d"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "123a70f9fcdb0745f8332372585e2e1aac10ae1801f72152d82d341c3c5b8af0"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "4ead9efe5a0b7e9fef4d038f17573e8003d1407550fa68f7cca2bdac156f7209"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.aarch64-linux-gnu.tar.gz"
 [[Glib]]
 arch = "aarch64"
-git-tree-sha1 = "5f0a320ff419e3c473e93a283aee97d11b3ddd24"
+git-tree-sha1 = "dcdebd58941e1c2149cd20dc792b0b7b5faed808"
 libc = "musl"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "14c5ab4fcd98569ff4e5f913840107f933f39ba3c1b191f6a8deff28669c189f"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.aarch64-linux-musl.tar.gz"
+    sha256 = "bdd928b02422da5552010cbed53a8f1084808228aef8165d8098207298a9bb46"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.aarch64-linux-musl.tar.gz"
 [[Glib]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "36b387cf19af248695fc5bc30e4d034a68443ad8"
+git-tree-sha1 = "6a426191049b43870447c2ec57666adad0999c0d"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "8d00b2aee88121a2e025a48797e640a9c17c53ae446cc555239e27792cca753e"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "17b66e014a3144fc2fa761b432276796fe151661ee9278d61b3b00657878d16f"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.armv6l-linux-gnueabihf.tar.gz"
 [[Glib]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "003ae9fe62ebc0cacddd1c42ba5907752a9a87cd"
+git-tree-sha1 = "ad2386108939d28c86525558307c861b4c3aa28c"
 libc = "musl"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "61ec759ccd772c4cd54b0093d61843cf8dfebf712db12b21cd98189789bd02c2"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "6abefc4e6baf86c5d14f45d5cabbc06e98bfaba456a7b738774156eaf0afbf64"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.armv6l-linux-musleabihf.tar.gz"
 [[Glib]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "384c1fbf41786ba1e7cfa585da8c9f868651844f"
+git-tree-sha1 = "1843b611585b91aa99ba7fece72f7c2e885a8536"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "611b167b1c31eaa064cce53c30bb812f1b7c3291bbf335bac8478ab648957c82"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "a1a36e703e823c03a51eee876007376dcf2872345aa3cd52498d0f36fc6d593b"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.armv7l-linux-gnueabihf.tar.gz"
 [[Glib]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2756ff1ed8ac791116eb6f4c9da3487f7b348055"
+git-tree-sha1 = "054809835fa52dbd12e7884df583445575dbd534"
 libc = "musl"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "e9d816c244bed47291fcc78433b8f3f6db38d511cbdedd141a8640547a6ea2cc"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "8f0f4086b01b603389e4cf32113791c541da98df665efabbd1e173635b4729c6"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.armv7l-linux-musleabihf.tar.gz"
 [[Glib]]
 arch = "i686"
-git-tree-sha1 = "3b2cae8a2542162bbff99133effe91328112f801"
+git-tree-sha1 = "5c3456d6b205b9cd6e1f068f962ece1e42668fbc"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "d8a019ca538a4f930981068398377d46793c538535493b31668e32cae1636d42"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.i686-linux-gnu.tar.gz"
+    sha256 = "6b8198604c20f1ac4d69068d3c41390fd25dd427e32fdc06b88febca636ba6af"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.i686-linux-gnu.tar.gz"
 [[Glib]]
 arch = "i686"
-git-tree-sha1 = "d040b0023c87bd2d8fc94a98716a18e752084665"
+git-tree-sha1 = "2ce613fc6f3f70991ba3f986b4f3431a5acc14f6"
 libc = "musl"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "fef806c48b2db71c831df3acc46c2c1d35dc960e6fe7e9af6e99aa4c18a5be7d"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.i686-linux-musl.tar.gz"
+    sha256 = "651243824baad9bcc09aa29bc35fb7b72ffde72b727f45c1f80343f152bcc3f7"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.i686-linux-musl.tar.gz"
 [[Glib]]
 arch = "i686"
-git-tree-sha1 = "0c886818a03239980d0407a8e4995cc62cb5331d"
+git-tree-sha1 = "da9a32d2bdea7ceff6ff7b77301d30d0cc319069"
 os = "windows"
 
     [[Glib.download]]
-    sha256 = "73376ddb2de602b3c784750e7cc16dd25be17e94432a62eb20a0e580fc99d338"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.i686-w64-mingw32.tar.gz"
+    sha256 = "2cd3ac982632fc73fbd36d3c8bf26a49412a3d65d4c2270d547976070e8618e1"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.i686-w64-mingw32.tar.gz"
 [[Glib]]
 arch = "powerpc64le"
-git-tree-sha1 = "6f197f282af756fac005b0ca368e90b3e9628725"
+git-tree-sha1 = "81df4985a7acd510e5a7a60dff5c9e7d8099ae3b"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "71124f95068dc7eca6a4c610318befff846dbe6b1719437d35728d761e6857b6"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "85a35d1fe6b0946c882f527274162a1e58c41d264fd7e6ebc0251afaf032aa54"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.powerpc64le-linux-gnu.tar.gz"
 [[Glib]]
 arch = "x86_64"
-git-tree-sha1 = "2be77ffa9a848f4e33c1f669df27f107a20e895f"
+git-tree-sha1 = "1baa8287e6dbb83d8a9236003985bdcc7f34c39c"
 os = "macos"
 
     [[Glib.download]]
-    sha256 = "ee7393768a5569a8623fcd6a069e09c491cc1a290281eb43676e240710c61da3"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "2387a5e75cd3cb360d480a631e0a5a3c3dc5868136c0497c559264d36e795948"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.x86_64-apple-darwin.tar.gz"
 [[Glib]]
 arch = "x86_64"
-git-tree-sha1 = "303fe895f57042ea41055187ec4af6322989b5cc"
+git-tree-sha1 = "1cfe0ebb804cb8b0d7d1e8f98e5cda94b2b31b3d"
 libc = "glibc"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "f4f5da008d1be204d5d450f6bb8156a6b9bc52211630d5e070ccfe37aea5be79"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "f6b5aef42a14be2f7f1194e3d9f7f177d5d83efe8564a4861d4afc2a6f1e36c7"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.x86_64-linux-gnu.tar.gz"
 [[Glib]]
 arch = "x86_64"
-git-tree-sha1 = "54c479059209b34b5a45d0fd46e582af95945b01"
+git-tree-sha1 = "c1ba2270edd3508a3f44b307e484911cf0bcfbee"
 libc = "musl"
 os = "linux"
 
     [[Glib.download]]
-    sha256 = "7c733c5ee61af21303dbdb3a27d899d9f9fa5b1a1b88e988476dbbbc37c58971"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.x86_64-linux-musl.tar.gz"
+    sha256 = "e796ee924b19e7f27818c5cf61589581679a650ede325ba98061979dfd68a89f"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.x86_64-linux-musl.tar.gz"
 [[Glib]]
 arch = "x86_64"
-git-tree-sha1 = "18ef666b539c1c05a98e40df98532a68636be39a"
+git-tree-sha1 = "ed1587478e919b3577198925931339432cdac67f"
 os = "freebsd"
 
     [[Glib.download]]
-    sha256 = "7ba0eeb94deaa18f5ed0cdbd103444e77dee31672ca0fef8e326a87d22698a2b"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "6d998f877a345d01e687d8b5754fe5e6ad1e5a2e869a0e87fc25e3ea1dbfa1a2"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.x86_64-unknown-freebsd.tar.gz"
 [[Glib]]
 arch = "x86_64"
-git-tree-sha1 = "875a64380b9a8dbafc14e50e577219bd04c4e193"
+git-tree-sha1 = "4f67e82ee394e74ca63b7dc589dcc9218c12b20a"
 os = "windows"
 
     [[Glib.download]]
-    sha256 = "042861a7ecebd895d3febd5ac28312ba945247a1a249e38108734ed88982ffd0"
-    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+1/Glib.v2.74.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "6eef548cf3351aaf2d7ec3053ea2c58392038511e54d722d6a7a323bf1c4fe14"
+    url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.74.0+2/Glib.v2.74.0.x86_64-w64-mingw32.tar.gz"
