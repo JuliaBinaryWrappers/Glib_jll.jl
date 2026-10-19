@@ -92,11 +92,11 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.90.1+0/Glib.v2.90.1.i686-linux-musl.tar.gz"
 [[Glib]]
 arch = "i686"
-git-tree-sha1 = "e51e7ea5efb53c3c98db4007b4aaf423f72b5208"
+git-tree-sha1 = "d4c273afead95d9b61b80808528c420744575a57"
 os = "windows"
 
     [[Glib.download]]
-    sha256 = "b359277fa49ba1bfcf143792611935eaf522fe18c8639b0f324ffe73bb5cda6b"
+    sha256 = "662df4269bf1002f36370d00894725e4c85b8ecc47f0c32a31e4ae1f933ba27e"
     url = "https://github.com/JuliaBinaryWrappers/Glib_jll.jl/releases/download/Glib-v2.90.1+0/Glib.v2.90.1.i686-w64-mingw32.tar.gz"
 [[Glib]]
 arch = "powerpc64le"

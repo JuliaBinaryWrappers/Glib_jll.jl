@@ -8,22 +8,16 @@ using PCRE2_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("Glib")
 JLLWrappers.@declare_library_product(libgio, "@rpath/libgio-2.0.0.dylib")
-JLLWrappers.@declare_library_product(libgirepository, "@rpath/libgirepository-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libglib, "@rpath/libglib-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libgmodule, "@rpath/libgmodule-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libgobject, "@rpath/libgobject-2.0.0.dylib")
 JLLWrappers.@declare_library_product(libgthread, "@rpath/libgthread-2.0.0.dylib")
+JLLWrappers.@declare_library_product(libgirepository, "@rpath/libgirepository-2.0.0.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(GettextRuntime_jll, Libffi_jll, Libiconv_jll, PCRE2_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libgio,
         "lib/libgio-2.0.0.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libgirepository,
-        "lib/libgirepository-2.0.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -48,6 +42,12 @@ function __init__()
     JLLWrappers.@init_library_product(
         libgthread,
         "lib/libgthread-2.0.0.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libgirepository,
+        "lib/libgirepository-2.0.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
